@@ -47,7 +47,7 @@ footer .social>a:hover {
 }
 
 .checklist >li i{
-    color: var(--secondary-color);
+    color: #38b6ff;
 }
 
 code[class*="language-"],
