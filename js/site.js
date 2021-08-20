@@ -1,18 +1,19 @@
 //Get the string from the page
-//controller function
 function getString(){
     
+    //hide the alert box
     document.getElementById("alert").classList.add("invisible");
     
     let userString = document.getElementById("userString").value;
 
+    //Call reverseString function
     let revString = reverseString(userString);
 
+    //Call displayString function
     displayString(revString);
 }
 
 //Reverse the string
-//logic function
 function reverseString(userString){
 
     let revString = [];
@@ -25,8 +26,7 @@ function reverseString(userString){
     return revString;
 }
 
-//Display the Reversed string to the page
-//view function
+//Display the reversed string to the page
 function displayString(revString){
 
     //write the string to the page
